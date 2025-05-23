@@ -1,0 +1,11 @@
+{
+  "domain": "allowance_calculator",
+  "name": "Allowance Calculator",
+  "documentation": "https://github.com/yourusername/homeassistant-allowance-calculator",
+  "dependencies": [],
+  "codeowners": ["@yourusername"],
+  "requirements": [],
+  "config_flow": true,
+  "version": "1.0.0",
+  "iot_class": "calculated"
+}

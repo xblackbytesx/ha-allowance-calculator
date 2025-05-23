@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Allowance Calculator",
+        "description": "Set up the Allowance Calculator to track children's allowances.",
+        "data": {
+          "currency": "Currency"
+        }
+      },
+      "add_child": {
+        "title": "Add a Child",
+        "description": "Enter the details for a child. Use {birthday_format} format for the birthday.",
+        "data": {
+          "name": "Child's Name",
+          "birthday": "Birthday (YYYY-MM-DD)",
+          "percentage": "Percentage of Age for Allowance"
+        }
+      },
+      "add_another": {
+        "title": "Add Another Child?",
+        "description": "You have added {child_count} children: {children}. Would you like to add another child?",
+        "data": {
+          "add_another": "Add Another Child"
+        }
+      }
+    },
+    "error": {
+      "invalid_date": "Invalid date format. Please use YYYY-MM-DD.",
+      "birthday_in_future": "Birthday cannot be in the future."
+    },
+    "abort": {
+      "already_configured": "This allowance calculator is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Allowance Calculator Options",
+        "description": "Update your allowance calculator settings.",
+        "data": {
+          "currency": "Currency"
+        }
+      }
+    }
+  }
+}
